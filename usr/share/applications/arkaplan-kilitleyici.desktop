@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Arka Plan Kilitleyici
+Comment=Pardus ETAP masaüstü arka planını kilitler
+Keywords=pardus;etap;arkaplan;kilitle;
+Exec=/usr/bin/arkaplan-kilitleyici-baslat
+Icon=preferences-desktop-wallpaper
+Terminal=false
+Type=Application
+Categories=Settings;System;

@@ -1,0 +1,7 @@
+#!/bin/bash
+#
+# Bu script, menüden tıklandığında KULLANICI (etapadmin) olarak çalışır.
+# Amacı, kullanıcının grafik ortam değişkenlerini (DISPLAY ve XAUTHORITY)
+# yakalayıp, pkexec aracılığıyla root'a aktarmaktır.
+#
+pkexec sh -c "DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY /usr/bin/python3 /usr/share/arkaplan-kilitleyici/kilitleyici_app.py"
